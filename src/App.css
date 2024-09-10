@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.cocktail-data {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.cocktail-data li img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  /* border-radius: 80%; */
+}
+.cocktail-data {
+  list-style-type: none;
+}
+@media screen and (min-width: 769px) {
+  .cocktail-data {
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
